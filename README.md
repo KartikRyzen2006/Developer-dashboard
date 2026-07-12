@@ -2,6 +2,8 @@
 
 A modern Developer Dashboard built with **HTML, CSS, and JavaScript**.
 
+Live: https://developer-dashboard-kappa.vercel.app/
+
 ## ✨ Features
 
 - ✅ Responsive Dashboard UI
