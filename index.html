@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Developer Dashboard</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+/>
+<link rel="stylesheet" href="style.css">
+ <script src="script.js" defer></script>
+
+    <meta charset="UTF-8">
+    </head>
+    <body class="dark">
+        <aside>
+            <div class="logo">
+                <i class="fa-solid fa-code"></i>
+                <h2>DevDash</h2>
+            </div>
+            <nav>
+             <a href="#">
+                <i class ="fa-solid fa-house"></i>
+                Dashboard
+            </a>
+             <a href="#"><i class ="fa-solid fa-user"></i>
+                Profile
+            </a>
+             <a href="#"><i class ="fa-solid fa-list-check"></i>
+                Task
+            </a>
+             <a href="#"><i class ="fa-solid fa-folder-open"></i> 
+                Projects
+            </a>
+             <a href="#"><i class="fa-solid fa-sticky-note"></i>
+                Notes
+            </a>
+             <a href="#"><i class="fa-solid fa-book"></i>
+                Learning
+            </a>
+             <a href="#"><i class="fa-solid fa-bullseye"></i>
+                Goals
+            </a>
+             <a href="#"><i class="fa-solid fa-gear"></i>
+                Settings
+            </a>
+             </nav>
+        </aside>
+        <main>
+            <header>
+                <input type ="text"
+                id="search-input"
+                placeholder="Search...">
+                
+                <div class="header-right">
+                    <button id="themeToggle" class="themeToggle">
+                        <i id="themeIcon" class="fa-solid fa-moon"></i>
+                    </button>
+
+                    <i class="fa-solid fa-bell"></i>
+                    
+                    
+               
+                
+                <div class ="profile">
+                    <img  src="https://i.pravatar.cc/100"
+                    alt="profile">
+
+                    <span>Kartik</span>
+                </div>
+                </div>
+            </header>
+
+            <section class="Welcome">
+                <h1>Welcome Back, Kartik</h1>
+                <p>Code. Learn. Build. Repeat.</p>
+            </section>
+
+
+            <section class="stats">
+                <div class="card">
+
+                    <h3>Total Tasks</h3>
+                    <h1>25</h1>
+                </div>
+                  <div class="card">
+
+                    <h3>Completed</h3>
+                    <h1>18</h1>
+                  </div>
+                
+                  <div class="card">
+                    <h3>In Progress</h3>
+                    <h1>5</h1>
+                  </div>
+                
+                  <div class="card">
+                    <h3>Projects</h3>
+                    <h1>7</h1>
+                  </div>
+                
+
+            </section>
+
+            <section>
+                <h2>Recent Tasks</h2>
+                
+                <div class="task-input">
+                <input id="taskInput"
+                type="text"
+                placeholder="Enter new task">
+
+                <button id="addTask">Add Task</button>
+               </div>
+               <div id ="taskList">
+                <div class ="task">
+                    Learn JavaScript
+                </div>
+
+                <div class="task">
+                    Build Dashboard
+                </div>
+
+                <div class="task">
+                    Learn React
+                </div>
+                </div>
+            </section>
+
+            <section>
+                <h1>Learning Progress</h1>
+                <div class="progress-card">
+                    <div class="progress-item">
+                        <span>JavaScript</span>
+                        <span>100%</span>
+
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill js"></div>
+                    </div>
+                </div>
+
+                <div class="progress-card">
+                    <div class="progress-item">
+                        <span>DSA</span>
+                        <span>0%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill dsa"></div>
+                    </div>
+                </div>
+
+                <div class="progress-card">
+                    <div class="progress-item">
+                        <span>React</span>
+                        <span>0%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill react"></div>
+                    </div>
+                </div>
+
+                <div class="progress-card">
+                    <div class="progress-item">
+                        <span>Blockchain</span>
+                        <span>0%</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill blockchain"></div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section>
+                <h1>Notes</h1>
+                <div class="note-input">
+                    <input 
+                    id="noteInput"
+                    type="text"
+                    placeholder="Enter Notes">
+                    <button id="addNote">Add Note</button>
+                </div>
+                <div id="note-list">
+
+                <div class="note">
+                    Learn Flexbox
+                </div>
+
+                <div class="note">
+                    Complete Dashboard
+                </div>
+                </div>
+            </section>
+
+            <div>
+                <h1>Goals</h1>
+                <div class="goal-input">
+                <input
+                id="goalInput"
+                type="text"
+                placeholder="Enter new goal">
+                <button id="addGoal">Add Goal</button>
+                </div>
+                <div id="goal-list">
+                
+                <div class="goal">
+                    Become Full-Stack Blockchain Developer
+                </div>
+
+                <div class="goal">
+                    Master DSA
+                </div>
+                </div>
+
+                <h1>API Todos</h1>
+                <div id="apiTodoList">
+                    <div class="api-todo"></div>
+                    </div>
+                </div>
+                
+            
+            </section>
+        </main>
+       
+        
+    </body>
+</html>
