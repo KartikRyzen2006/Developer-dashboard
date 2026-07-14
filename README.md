@@ -33,8 +33,13 @@ Live: https://developer-dashboard-kappa.vercel.app/
 ---
 
 ## 📸 Preview
+[Dark Mode]
 
-(Add screenshots here later)
+assets\screenshots\dashboard-dark.png
+
+[Light Mode]
+
+assets\screenshots\dashboard-light.png
 
 ---
 
